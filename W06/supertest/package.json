@@ -1,0 +1,20 @@
+{
+  "name": "supertest",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --coverage",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  },
+  "dependencies": {
+    "package": "^1.0.1"
+  }
+}
